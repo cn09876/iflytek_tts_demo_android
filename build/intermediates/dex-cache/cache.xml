@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cn09876/AndroidStudioProjects/TTS_demo/app/build/intermediates/incremental-classes/debug/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0cdf24e1bd6533ac2154c1f64c6919b69d4b6870">
+        <dex dex="/Users/cn09876/AndroidStudioProjects/TTS_demo/app/build/intermediates/pre-dexed/debug/classes_9fce1455d31491afcc29474e1218ee936986ed95.jar" />
+    </item>
+
+</items>
