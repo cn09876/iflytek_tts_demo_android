@@ -1,6 +1,7 @@
 package ssp.tts_demo;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -21,6 +22,7 @@ public class FrmMain extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frm_main);
 
+
         l("onCreate ok,ready to create clstts object");
         t=new clsTTS(this);
 
@@ -31,8 +33,10 @@ public class FrmMain extends Activity {
             @Override
             public void onClick(View view) {
                 t.speak("报读");
-                btn1.setText(t.mTts.getLocalSpeakerList());
+                btn1.setText(t.getLocalSpeakerList());
             }
         });
     }
+
+
 }
